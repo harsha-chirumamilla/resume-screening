@@ -13,7 +13,7 @@ Our tool saves HR teams valuable time and energy as they no longer need to manua
 ## Features
 1. Automated resume screening: AI Resume Screening saves time and effort by automatically screening resumes based on job requirements and pre-defined criteria.
 
-2. Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 90 percent accuracy.
+2. Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 91 percent accuracy.
 
 3. Efficient process: Each resume is categorized with the model in less than 5 seconds.
    
@@ -30,7 +30,7 @@ The code consists of the following parts:
 
 4. RF.joblib: It is the machine learning model (Random Forest) which had the highest accuracy. This is the model used to  predict the category in which the resume fits.
 
-5. SQL.txt : Contains the MYSQL  queries to set up a database to store the details of the short listed candidates.
+5. SQL.txt : Contains the MySQL  queries to set up a database to store the details of the short listed candidates.
 
 6. HR.py: The page where HR enters the job role which is open for hiring, based on which shortlisting of candidates is done.  Use the command “streamlit run HR.py” to run it in the local server.
 
@@ -40,12 +40,12 @@ The code consists of the following parts:
 
 
 ## Other things to know:
-1. The selected data will be stored in a MySQL database.
+1. The data of shortlisted candidates will be stored in a MySQL database, making it feasible to view their profiles.
    
 2. For the email feature to be enabled , the user has to configure the operating system’s environment variables to set the senders address , password and port number.
 
 
 ## Datasets used for the model: 
-https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
+1. https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
 
-https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+2. https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
