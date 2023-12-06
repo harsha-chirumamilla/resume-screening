@@ -1,4 +1,4 @@
-# Resume Screening
+#                                                                                Resume Screening
 
 ## Introduction
 AI Resume Screening is a tool that uses artificial intelligence to automate the process of resume screening and shortlisting. The tool uses natural language processing and machine learning algorithms to analyze resumes and classify them to the job roles based on the words in their resume.
@@ -30,9 +30,9 @@ The code consists of the following parts:
 8. mail.py: It contains the Python code which automatically sends an email to the shortlisted candidates.
 
 ## Other things to know:
-The selected data will be stored in a MYSQL database.
+The selected data will be stored in a MySQL database.
 
-The email feature to be enabled , the user has to configure the operating system’s environment variables to set the senders address , password and port number.
+For thee email feature to be enabled , the user has to configure the operating system’s environment variables to set the senders address , password and port number.
 
 ## Datasets used for the model: 
 https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
