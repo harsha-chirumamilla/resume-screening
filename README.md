@@ -1,4 +1,4 @@
-# Resume Screening
+# AI Resume Screening
 
 ## Introduction
 AI Resume Screening is a tool that uses artificial intelligence to automate the process of resume screening and shortlisting. The tool uses natural language processing and machine learning algorithms to analyze resumes and classify them to the job roles based on the words in their resume.
