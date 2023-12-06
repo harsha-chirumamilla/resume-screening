@@ -17,7 +17,7 @@ Our tool saves HR teams valuable time and energy as they no longer need to manua
 
 3. Efficient process: Each resume is categorized with the model in less than 5 seconds.
    
-4. Detailed output : The HR gets a detailed output of the Name, Email, Location, Resume(in binary) and the candidate's resumé, based on the scores.
+4. Detailed output : The HR gets a detailed output of the Name, Email, Location, and the candidate's resumé, based on the scores.
    
 
 ## Usage
