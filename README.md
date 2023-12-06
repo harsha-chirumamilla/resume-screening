@@ -40,6 +40,7 @@ The code consists of the following parts:
 ## Other things to know:
 1. The data of shortlisted candidates will be stored in a MySQL database, making it feasible to view their profiles.
 
+2. The 'pages' folder should be placed in the same parent folder which contains 'HR.py' and 'Show Resumes.py' shouldn't be moved out of 'pages'
 
 ## Datasets used for the model: 
 1. https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
