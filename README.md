@@ -1,4 +1,4 @@
-#                                                                                Resume Screening
+# Resume Screening
 
 ## Introduction
 AI Resume Screening is a tool that uses artificial intelligence to automate the process of resume screening and shortlisting. The tool uses natural language processing and machine learning algorithms to analyze resumes and classify them to the job roles based on the words in their resume.
@@ -9,30 +9,41 @@ Using pre-trained machine learning models, which are trained on thousands of res
 
 Our tool saves HR teams valuable time and energy as they no longer need to manually sift through hundreds of resumes. Job seekers also benefit from receiving immediate feedback on their eligibility, streamlining their job search process.
 
+
 ## Features
-Automated resume screening: AI Resume Screening saves time and effort by automatically screening resumes based on job requirements and pre-defined criteria.
+1. Automated resume screening: AI Resume Screening saves time and effort by automatically screening resumes based on job requirements and pre-defined criteria.
 
-Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 90 percent accuracy.
+2. Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 90 percent accuracy.
 
-Efficient process: Each resume is categorized with the model in less than 5 seconds.
-
-Detailed output : The HR gets a detailed output of the Name, Email, Location, Resume(in binary) and the candidate's resumé, based on the scores.
+3. Efficient process: Each resume is categorized with the model in less than 5 seconds.
+   
+4. Detailed output : The HR gets a detailed output of the Name, Email, Location, Resume(in binary) and the candidate's resumé, based on the scores.
+   
 
 ## Usage
 The code consists of the following parts:
 1. Upload_Resume.py : This is the code which integrates the UI with the Trained model. Use the command “streamlit run Upload_Resume.py” which opens the web browser where you can upload your resume. Alternatively the code can be hosted on github and the link can directly be sent to the candidate,to upload the resume.
+
 2. combineddata-ML.ipynb : It is the jupyter notebook which we used to train the final model on all algorithms. It also contains the accuracies of each algorithm we have used.TF-IDF was used to extract the features from the pre-processed resume.
+
 3. cv.pickle : It is the pickled file which contains the features of the model trained on the resumes by using TF-IDF. This pickle file is used to compare the features of the Uploaded resume with the model.
+
 4. RF.joblib: It is the machine learning model (Random Forest) which had the highest accuracy. This is the model used to  predict the category in which the resume fits.
+
 5. SQL.txt : Contains the MYSQL  queries to set up a database to store the details of the short listed candidates.
+
 6. HR.py: The page where HR enters the job role which is open for hiring, based on which shortlisting of candidates is done.  Use the command “streamlit run HR.py” to run it in the local server.
+
 7. pages/Show_Resumes.py: It displays the resumes of the shortlisted candidates by sorting them in descending order of the scores.
+
 8. mail.py: It contains the Python code which automatically sends an email to the shortlisted candidates.
 
-## Other things to know:
-The selected data will be stored in a MySQL database.
 
-For thee email feature to be enabled , the user has to configure the operating system’s environment variables to set the senders address , password and port number.
+## Other things to know:
+1. The selected data will be stored in a MySQL database.
+   
+2. For the email feature to be enabled , the user has to configure the operating system’s environment variables to set the senders address , password and port number.
+
 
 ## Datasets used for the model: 
 https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
