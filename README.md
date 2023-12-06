@@ -11,8 +11,11 @@ Our tool saves HR teams valuable time and energy as they no longer need to manua
 
 ## Features
 Automated resume screening: AI Resume Screening saves time and effort by automatically screening resumes based on job requirements and pre-defined criteria.
-Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 90 percent accuracy
+
+Improved accuracy: The tool uses advanced algorithms to analyze resumes, reducing the likelihood of human bias and improving the accuracy of the shortlisting process. We have achieved 90 percent accuracy.
+
 Efficient process: Each resume is categorized with the model in less than 5 seconds.
+
 Detailed output : The HR gets a detailed output of the Name, Email, Location, Resume(in binary) and the candidate's resumé, based on the scores.
 
 ## Usage
@@ -28,8 +31,10 @@ The code consists of the following parts:
 
 ## Other things to know:
 The selected data will be stored in a MYSQL database.
+
 The email feature to be enabled , the user has to configure the operating system’s environment variables to set the senders address , password and port number.
 
 ## Datasets used for the model: 
 https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
+
 https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
