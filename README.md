@@ -22,7 +22,7 @@ Our tool saves HR teams valuable time and energy as they no longer need to manua
 
 ## Usage
 The code consists of the following parts:
-1. Upload_Resume.py : This is the code which integrates the UI with the Trained model. Use the command “streamlit run Upload_Resume.py” which opens the web browser where you can upload your resume. Alternatively the code can be hosted online using streamlit and the link can directly be sent to the candidate,to upload the resume.
+1. Upload_Resume.py : This is the code which integrates the UI with the Trained model. Use the command “streamlit run Upload_Resume.py” which opens the web browser where the candidate can upload the resume. If shortlisted, the candidate receives an automated email. Alternatively the code can be hosted online using streamlit and the link can directly be sent to the candidate,to upload the resume.
 
 2. combineddata-ML.ipynb : It is the jupyter notebook which we used to train the final model on all algorithms. It also contains the accuracies of each algorithm we have used.TF-IDF was used to extract the features from the pre-processed resume.
 
@@ -35,8 +35,6 @@ The code consists of the following parts:
 6. HR.py: The page where HR enters the job role which is open for hiring, based on which shortlisting of candidates is done.  Use the command “streamlit run HR.py” to run it in the local server.
 
 7. pages/Show_Resumes.py: It displays the resumes of the shortlisted candidates by sorting them in descending order of the scores.
-
-8. mail.py: It contains the Python code which automatically sends an email to the shortlisted candidates.
 
 
 ## Other things to know:
