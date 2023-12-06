@@ -22,7 +22,7 @@ Our tool saves HR teams valuable time and energy as they no longer need to manua
 
 ## Usage
 The code consists of the following parts:
-1. Upload_Resume.py : This is the code which integrates the UI with the Trained model. Use the command “streamlit run Upload_Resume.py” which opens the web browser where you can upload your resume. Alternatively the code can be hosted on github and the link can directly be sent to the candidate,to upload the resume.
+1. Upload_Resume.py : This is the code which integrates the UI with the Trained model. Use the command “streamlit run Upload_Resume.py” which opens the web browser where you can upload your resume. Alternatively the code can be hosted online using streamlit and the link can directly be sent to the candidate,to upload the resume.
 
 2. combineddata-ML.ipynb : It is the jupyter notebook which we used to train the final model on all algorithms. It also contains the accuracies of each algorithm we have used.TF-IDF was used to extract the features from the pre-processed resume.
 
