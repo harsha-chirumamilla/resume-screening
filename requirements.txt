@@ -1,0 +1,7 @@
+streamlit
+mysql
+scikit-learn
+joblib
+numpy
+pandas
+matplotlib
